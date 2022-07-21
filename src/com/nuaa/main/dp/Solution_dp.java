@@ -1,7 +1,5 @@
 package com.nuaa.main.dp;
 
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -32,7 +30,6 @@ public class Solution_dp {
         System.out.println(dp[bagSize]);
     }
 
-    @Test
     public void testMultiPack1(){
         // 版本一：改变物品数量为01背包格式
         List<Integer> weight = new ArrayList<>(Arrays.asList(1, 3, 4));
