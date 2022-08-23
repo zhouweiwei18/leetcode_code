@@ -5,7 +5,6 @@ import java.util.Deque;
 
 public class Solution {
 
-
     public static void main(String[] args) {
         String a = "3[3[a]]";
         String s = decodeString(a);
